@@ -80,13 +80,13 @@
 
   sidebarBtn.onclick = () => {
     sidebar.classList.toggle("active");
-    // for (let i = 0; i < sidebarNav.length; i++) {
-    //   if (sidebarNav[i].style.display === "none"){
-    //     sidebarNav[i].style.display = "block";
-    //   } else {
-    //     sidebarNav[i].style.display = "none";
-    //   } 
-    // }
+    for (let i = 0; i < sidebarNav.length; i++) {
+      if (sidebarNav[i].style.display === "none"){
+        sidebarNav[i].style.display = "block";
+      } else {
+         sidebarNav[i].style.display = "none";
+      } 
+    }
   }
 </script>
 
